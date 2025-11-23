@@ -17,7 +17,7 @@ TOKEN_TYPES = [
     ('CHAR_LITERAL', r'\'.\''),
 
     # Operadores e Pontuadores
-    ('Endereçamento', r'&'), ('EspecificadorScanf', r'%(\*?\d*[h|l|L]*[d|i|o|u|x|X|e|E|f|F|g|G|a|A|c|s|p|n]|\[[^\]]*\]|%)'),
+    ('Endereçamento', r'&'),
     ('MenorIgual', r'<='), ('MaiorIgual', r'>='), ('IgualA', r'=='), ('DiferenteDe', r'!='),
     ('OperadorE', r'&&'), ('OperadorOu', r'||'),    
     ('Soma', r'\+'), ('Subtração', r'-'), ('Multiplicação', r'\*'), ('Divisão', r'/'),
